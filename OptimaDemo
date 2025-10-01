@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DemoCafe — AI Chat Demo</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;display:flex;flex-direction:column;align-items:center;padding:40px;}
+    .card{max-width:720px;width:100%;border:1px solid #eee;padding:24px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.05)}
+    h1{margin-top:0}
+    .cta{display:inline-block;margin-top:14px;padding:10px 16px;border-radius:6px;background:#0066ff;color:#fff;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>DemoCafe — Chatbot demo</h1>
+    <p>Hej! Denne side viser hvordan en AI-chatbot kan svare kunder døgnet rundt. Klik "Åbn chat" for at starte demoen.</p>
+    <a class="cta" href="#" onclick="if(window.tidioChatApi) tidioChatApi.open(); return false;">Åbn chat</a>
+
+    <h3 style="margin-top:20px">Eksempler på spørgsmål (prøv disse i chatten)</h3>
+    <ul>
+      <li>Hvornår har I åbent i dag?</li>
+      <li>Hvad koster en cappuccino?</li>
+      <li>Kan jeg bestille en kage til afhentning?</li>
+    </ul>
+  </div>
+
+  <!-- PASTE TIDIO SCRIPT HERE (from Tidio: Settings → Installation) -->
+  <!-- fx: <script src="//code.tidio.co/xxxxx.js" async></script> -->
+<script src="//code.tidio.co/4g1mpfnsc6wei0re3zqjhhlxqwp4nmmi.js" async></script></body>
+</html>
